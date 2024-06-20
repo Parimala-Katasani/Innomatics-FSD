@@ -1,0 +1,58 @@
+body{
+    background-color: lightblue;
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.myForm{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+   position: fixed;
+   left: 35%;
+   top: 18%;
+   background-color: lightcoral;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+    }
+
+    .myForm{
+        display: block;
+        text-align: center;
+    }
+
+    input{
+        padding: 3px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    input:hover {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.94);
+    }
+    input[type="radio"],  input[type="checkbox"] {
+        width: 15px;
+        height: 15px;
+    }
+    textarea{
+        padding: 10px 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    select{
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    input[type="submit"]{
+        width: 50%;
+        background-color: black;
+        color: white;
+        margin: 20px 0px;
+        font-weight: bold;
+    }
+
