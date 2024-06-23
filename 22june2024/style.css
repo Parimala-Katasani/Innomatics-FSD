@@ -1,0 +1,24 @@
+.head{
+    background-color: yellow;
+}
+*{
+    padding: 10px;
+    text-align: center;
+}
+table{
+    table-layout: auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 30px 30px;
+}
+th,td,tr{
+    border: 1px solid black;
+}
+.grey{
+    background-color: lightgrey;
+}
+.home{
+    background-color: lightpink;
+    padding: 20px;
+}
