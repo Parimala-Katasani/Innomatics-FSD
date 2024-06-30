@@ -1,2 +1,3 @@
 Deployment<br>
-https://parimala-katasani.github.io/Innomatics-FSD/21june2024/index.html
+Table_Assignment<br>
+https://parimala-katasani.github.io/Innomatics-FSD/22june2024/index.html
