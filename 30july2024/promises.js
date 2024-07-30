@@ -35,3 +35,12 @@ Promise.race([task1,task2,task3])
     }).catch((err)=>{
         console.log('err=>',err)
     })
+
+    // Hello! completed
+    // success=> Task 1 completed
+    // successs [
+    //   { status: 'fulfilled', value: 'Task 1 completed' },
+    //   { status: 'fulfilled', value: 'Task 2 completed' },
+    //   { status: 'rejected', reason: 'Task 3 failed' }
+    // ]
+    // One of the tasks failed: Task 3 failed
